@@ -15,6 +15,7 @@ var GalleryByReactApp = React.createClass({
       <div className="main">
         <ReactTransitionGroup transitionName="fade">
           <img src={imageURL} />
+            <span>haha</span>
         </ReactTransitionGroup>
       </div>
     );
